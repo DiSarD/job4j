@@ -10,7 +10,7 @@ public class Calculate{
 	
 /**
  * Mian.
- * @param arg - arg.
+ * @param args - args.
  */	
 	public static void main (String[] args){
 		System.out.println("Hello World");
