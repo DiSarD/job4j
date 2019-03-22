@@ -17,9 +17,8 @@ public class MaxTest {
         Max max = new Max();
         int left = 1;
         int right = 2;
-        int expected = right;
-        int result = max.max(left,right);
-        assertThat(result,is(expected));
+        int result = max.max(left, right);
+        assertThat(result, is(right));
     }
 
     @Test
@@ -27,17 +26,16 @@ public class MaxTest {
         Max max = new Max();
         int left = 2;
         int right = 1;
-        int expected = left;
-        int result = max.max(left,right);
-        assertThat(result,is(expected));
+        int result = max.max(left, right);
+        assertThat(result, is(left));
     }
     @Test
     public void whenLeftEquRightThenOk() {
         Max max = new Max();
         int left = 2;
         int right = 2;
-        int result = max.max(left,right);
-        assertThat(result,is(right));
-        assertThat(result,is(left));
+        int result = max.max(left, right);
+        assertThat(result, is(right));
+        assertThat(result, is(left));
     }
 }
