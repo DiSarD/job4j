@@ -2,7 +2,7 @@ package ru.job4j.tracker;
 
 public class Builder extends Engineer {
 
-    public long strength;
+    private long strength;
 
     public void drill() {
 
